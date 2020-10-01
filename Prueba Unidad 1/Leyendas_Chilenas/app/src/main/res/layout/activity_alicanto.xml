@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alicanto">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="El Alicanto"
+        android:textColor="#080809"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es un ave mitológica que habita en pequeñas cuevas entre los cerros de minerales del desierto de Atacama y cuyas apariciones son esperadas con ansias por los buscadores de fortunas.
+Esta criatura, que se alimenta con oro y plata, es enorme, tiene grandes alas de color metálico, un pico encorvado y patas con poderosas garras.
+Se dice que quien decidía seguir al Alicanto, se enriquecería, ya que esta ave era capaz de conducirlo a los sitios exactos donde había ricos yacimientos o a puntos donde había algún tesoro enterrado.
+
+Sin embargo, si el Alicanto se sentía perseguido, oscurecía sus alas y se confundía con la noche. Además, con movimientos rápidos y otras veces lentos, desorientaba al minero que lo seguía. Finalmente, a su perseguidor le arrojaba una fuerte luz que lo encandilaba, dejándolo enceguecido en medio de un camino desconocido, y solo con una plegaria a la virgen de Punta Negra, el minero podía encontrar la ruta de regreso a su hogar."
+        android:textColor="#080809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="276dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/alicanto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

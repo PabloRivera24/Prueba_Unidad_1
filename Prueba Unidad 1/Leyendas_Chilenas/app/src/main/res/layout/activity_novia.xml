@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".novia">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="La Novia Del Cementerio General"
+        android:textColor="#080809"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orlita Romero Gómez era una hermosa joven quien falleció un 13 de abril de 1943 a sus 17 años murió de pena porque su novio nunca llegó al altar.
+Sus restos se encuentran en una capilla ubicada en el cementerio general de Santiago.
+La capilla donde se encuentra es visitada por aquellos desgraciados en el amor, también lo hacen los escolares solicitando ayuda para pasar de curso o para algún examen, las novias antes de casarse para que todo salga bien, o cuando una relación dura mucho sin que se vislumbre cuando tañerán las campanas de boda. Los enamorados introducen papelitos con sus nombres escritos para que Orlita los una en matrimonio o mantenga su unión para siempre… se ha transformado en una ‘animita’ para los enamorados y también para los desdichados que desean que su suerte en el amor cambie.
+Aun que se debe decir que muchas personas afirman que ella vaga por la noches en busca de su novio que la dejo plantada en el altar."
+        android:textColor="#080809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="178dp"
+        android:layout_height="219dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215"
+        app:srcCompat="@drawable/novia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

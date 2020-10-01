@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pincoya">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="La Pincoya"
+        android:textColor="#080809"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La Pincoya es una sirena o ninfa que a veces anda acompañada por su marido, el Pincoy, ambos son rubios. En algunas ocasiones abandona el mar y excursiona por ríos y lagos.
+
+Su misión es fecundar los peces y mariscos bajo las aguas y de ella depende la abundancia o escasez de estos productos.
+
+Atrae o aleja de la costa a los peces y mariscos.
+
+Cuando un pescador ve de mañana surgir de las profundidades de las aguas a la Pincoya y ésta danza en la playa mirando hacia el mar extendiendo sus hermosos brazos, hay alegría en todos, porque este baile es anuncio de pesca abundante. Si danza mirando hacia la costa, alejará a los peces.
+
+Si la Pincoya no favorece con pesca a un lugar, quiere decir que ha arrastrado la abundancia a otros más necesitados. Para ser favorecido por la Pincoya, es necesario estar contento, por eso los pescadores se acompañan de amigos y amigas alegres y reidores.
+
+Si se pesca o marisca con mucha frecuencia en el mismo lugar, la Pincoya se enoja y abandona aquel frente, que luego queda estéril."
+        android:textColor="#080809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="256dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        app:srcCompat="@drawable/pincoya" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

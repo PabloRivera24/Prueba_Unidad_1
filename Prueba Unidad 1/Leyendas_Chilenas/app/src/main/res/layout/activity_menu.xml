@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/alert_light_frame"
+    tools:context=".Menu">
+
+
+    <Button
+        android:id="@+id/leyendas_norte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Norte"
+        android:text="Leyendas Zona Norte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/leyendas_centro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Centro"
+        android:text="Leyendas Zona Centro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/leyendas_sur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Sur"
+        android:text="Leyendas Zona Sur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699"
+        tools:layout_editor_absoluteX="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

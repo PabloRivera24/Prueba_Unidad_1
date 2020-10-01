@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trauco">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="El Trauco"
+        android:textColor="#080809"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El Trauco es un hombrecito que mide alrededor de 80 centímetros, tiene un rostro varonil y feo, sin embargo posee una mirada muy dulce y sensual.
+        Suele habitar cerca de las casas de los chilotes para así poder vigilar a las jovenes que le gustan.
+        Se mete a las casas y a todos los lugares imaginables sólo para ubicar una nueva “conquista”.
+        La gente de Chiloé, conociendo las mañas de este pequeño hombre, tratan de no descuidar a sus hijas.
+        Para esto toman precauciones tales como evitar que vayan solas a buscar leña o a arriar  los animales.
+        Son en esas oportunidades donde el Trauco aprovecha de utilizar su magia.
+        A pesar de su afán por seguir a jovenes, el Trauco jamás actúa frente a testigos, nunca atacará a una muchacha si esta va acompañada de alguien.
+        Cuando mira a una niña desciende rápidamente del árbol. Luego da tres hachazos al Tique, con los que parece derribarlos todos.
+        La muchacha luego de recuperarse del susto, se encuentra con el Trauco a su lado, quien sopla suavemente su bastón.
+        La niña sin poder resistir el encanto del trauco cae en un profundo sueño de amor.
+        La muchacha, al despertar del embrujo, regresa a su casa sin saber claramente lo sucedido.
+        Nueve meses después, tras haber experimentado cambios en su cuerpo por la poseción del Trauco, nace el hijo de este misterioso ser."
+        android:textColor="#080809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="211dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/trauco" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

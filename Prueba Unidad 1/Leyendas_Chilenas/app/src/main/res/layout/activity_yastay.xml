@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yastay">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="El Yastay"
+        android:textColor="#080809"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="También conocido como Yestay, es un guanaco protector de las manadas y que destaca sobre los demás por su gran tamaño y belleza. Se cree que este animal era el jefe de todos los demás animales y que tenía la particularidad de aparecer en los momentos más inesperados.
+Algunas veces, la apariencia de este animal no es muy agradable de ver, ya que cuando desata toda su furia contra los cazadores, se muestra con una cabeza de demonio y lanzando fuego por su boca. Pero en otras oportunidades, se presenta con un rostro tierno e incluso puede hacer las veces de guía en medio del desierto, cuando detecta la bondad de quienes se acercan a sus protegidos.
+
+Si alguien desea cazar algún animal, debe pedirle permiso al Yastay y dejarle una ofrenda entre las piedras del cerro.
+
+Además, este animal protege a los cazadores pobres que atrapan animales solo para alimentarse, y castiga a los que lo hacen sin necesitarlo. Se dice que en ciertas ocasiones asume la forma humana para hacer tratos con las personas."
+        android:textColor="#080809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="219dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/yastay" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

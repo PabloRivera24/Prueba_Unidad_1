@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".caleuche">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="El Cauleuche"
+        android:textColor="#080809"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es un buque que navega y vaga por los mares de Chiloé y los canales del sur. Está tripulado por brujos poderosos, y en las noches oscuras va profusamente iluminado. Tiene alumbrado y velamen color rojo, por andar tripulado por brujos. Por lo general, en sus navegaciones no cesa a bordo la música. Se oculta en medio de una densa neblina que él mismo produce. Jamás navega a la luz del día.
+
+ Al Caleuche no hay que mirarlo, porque los tripulantes castigan al que lo mira volviéndoles la boca torcida, la cabeza hacia la espalda o matándoles de repente, por arte de brujería. El que quiera mirar al buque y no sufrir el castigo de la torcedura, debe procurar que los tripulantes no se den cuenta de su audacia.
+  Todos los que mueren ahogados son recogidos por el Caleuche, que tiene la facultad de hacer la navegación submarina y aparecer en el momento preciso donde se le necesita para recoger a los náufragos y guardarlos en su seno, que les sirve de eterna mansión. Cuando el Caleuche necesita reparar su casco o sus máquinas, escoge de preferencia los barrancos y acantilados, y allí, en las altas horas de la noche, procede al trabajo."
+        android:textColor="#080809"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="233dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182"
+        app:srcCompat="@drawable/caleuche" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
